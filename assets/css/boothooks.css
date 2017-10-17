@@ -1,0 +1,84 @@
+﻿/* handy CSS */
+.wrap-break{
+	word-break: break-all;
+}
+.wrap-word{
+	word-break: break-word;	   
+}
+.wrap-hide{
+	overflow: hidden;
+}
+.xx-small{
+	font-size:xx-small
+}
+
+/* overrides to standard Bootstrap CSS */
+.form-horizontal .form-group{
+	margin-bottom:5px ;
+	margin-left:0px ;
+}
+
+.form-horizontal .form-group input, textarea
+{
+	margin: 3px;
+	padding: 1px 3px;
+}
+
+.form-horizontal div{
+	margin:5px :0px;
+	padding:0px;
+}
+
+/* BootBiz CSS */
+.bbAlertOverlay {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 10998;
+}
+.bbLoadingSpinner { 
+    position: fixed;
+    top: 50% !important; 
+    left: 50% !important; 
+    margin-top: -100px;  
+    margin-left: -100px; 
+    overflow: visible !important;
+}
+.bbViewportOverlay {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #abcdef;
+	opacity: 0.2;
+	z-index: 20000;
+	text-align:center
+}
+
+.modal-static { 
+    position: fixed;
+    top: 50% !important; 
+    left: 50% !important; 
+    margin-top: -100px;  
+    margin-left: -100px; 
+    overflow: visible !important;
+}
+.modal-static,
+.modal-static .modal-dialog,
+.modal-static .modal-content {
+    width: 200px; 
+    height: 200px; 
+}
+.modal-static .modal-dialog,
+.modal-static .modal-content {
+    padding: 0 !important; 
+    margin: 0 !important;
+}
+.modal-static .modal-content .icon {
+}
+
+iframe.noScrolling{
+	overflow: hidden;
+}

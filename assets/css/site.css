@@ -1,0 +1,14 @@
+﻿<style>
+	.wrap-break{
+		word-break: break-all;
+	}
+	.wrap-word{
+		word-break: break-word;
+	}
+	.wrap-hide{
+		overflow: hidden;
+	}
+	.table-condensed thead>tr>th, .table-condensed tbody>tr>th, .table-condensed tfoot>tr>th, .table-condensed thead>tr>td, .table-condensed tbody>tr>td, .table-condensed tfoot>tr>td {
+		padding:2px
+	}
+</style>	
